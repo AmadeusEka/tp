@@ -28,6 +28,8 @@ public class WelcomeCommand extends Command {
             + "\n\t"
             + "fav:\tSet the specified restaurant from the address book as favourite."
             + "\n\t"
+            + "unfav:\tRemove the specified restaurant from favourites."
+            + "\n\t"
             + "\nFor the full list, refer to the user guide: " + USERGUIDE_URL;
 
 

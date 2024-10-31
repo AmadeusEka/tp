@@ -28,12 +28,12 @@ public class AddCommand extends Command {
             + PREFIX_ADDRESS + "ADDRESS "
             + "[" + PREFIX_TAG + "TAG]...\n"
             + "Example: " + COMMAND_WORD + " "
-            + PREFIX_NAME + "John Doe "
+            + PREFIX_NAME + "Genkey Sushi"
             + PREFIX_PHONE + "98765432 "
-            + PREFIX_EMAIL + "johnd@example.com "
-            + PREFIX_ADDRESS + "311, Clementi Ave 2, #02-25 "
-            + PREFIX_TAG + "friends "
-            + PREFIX_TAG + "owesMoney";
+            + PREFIX_EMAIL + "Genskey@example.com "
+            + PREFIX_ADDRESS + "420, Tuas Ave 2, #10-25 "
+            + PREFIX_TAG + "Japanese "
+            + PREFIX_TAG + "Halal ";
 
     public static final String MESSAGE_SUCCESS = "New restaurant added: %1$s";
     public static final String MESSAGE_DUPLICATE_RESTAURANT = "This restaurant already exists in the address book";
