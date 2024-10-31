@@ -104,7 +104,7 @@ public class AddressBook implements ReadOnlyAddressBook {
     }
 
     /**
-     * Unfavourites {@code key} from this {@code AddressBook}.
+     * Un-favourites {@code key} from this {@code AddressBook}.
      * {@code key} must exist in the address book.
      */
     public void unfavouriteRestaurant(Restaurant key) {

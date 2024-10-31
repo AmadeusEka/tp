@@ -100,7 +100,7 @@ public class UniqueRestaurantList implements Iterable<Restaurant> {
     }
 
     /**
-     * Unfavourites the equivalent restaurant from the list.
+     * Un-favourites the equivalent restaurant from the list.
      * The restaurant must exist in the list.
      */
     public void unfavourite(Restaurant restaurant) {
